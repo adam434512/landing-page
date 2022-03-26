@@ -414,6 +414,7 @@ img {
       padding: 130px;
       row-gap: 10px;
       grid-template-rows: repeat(4, 1fr);
+      align-items: center;
    }
 
    .f-1-col {
@@ -440,6 +441,6 @@ img {
    .col-4 {
       grid-column: 1;
       grid-row: 4;
-      margin: -210px auto;
+      margin: auto;
    }
 }
