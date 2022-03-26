@@ -27,6 +27,10 @@ body {
    padding: 0;
 }
 
+.text-uppercase{
+   text-transform: uppercase;
+}
+
 /*--------------------------------------------------------
  Top up label 
  ---------------------------------------------------------*/
@@ -108,6 +112,7 @@ top content
 /*------------------------------------------------------
 features section
 -------------------------------------------------------*/
+
 .main-content {
    margin-top: 50px;
 }
@@ -160,6 +165,7 @@ features section
 /*-------------------------------------------------------
 call to action card
 ---------------------------------------------------------*/
+
 .c-t-card{
    background-color: var(--white);
    width: 40%;
@@ -217,7 +223,11 @@ i {
    grid-template-rows: 1fr;
 }
 
+img{
+   color: var(--white);
+}
 .f-logo {
+
    margin-bottom: 40px;
 }
 
@@ -225,8 +235,52 @@ i {
    display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
+align-items: center;
+}
+
+.link-list{
+   list-style: none;
+   margin-top: 105px;
+}
+
+.link-list-item { 
+   margin-top: 10px;
+   font-family: var(--c-t-a-font-family);
+   font-weight: 400;
+   text-transform: capitalize;
+}
+
+.link-list-item > a{
+   text-decoration: none;
+}
+
+.link-list-item > a:hover{
+   text-decoration: underline;
+}
+
+.col-4{
+   margin-top: 105px;
+}
+
+.social-link-m{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-content: start;
    align-items: center;
 }
+
+.social-link{
+   margin-right: 25px;
+   border: 1px solid var(--grayish-blue);
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.social-icon-link > i{
+   font-size: 16px;
+}
+
 
 .p-email,
 .p-number,
